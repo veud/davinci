@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DaVinci</title>
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+</head>
+<body>
+	<header id="header">
+			<div class="header_top">
+			<div class="overlay js-overlay-campaign">
+		<div class="popup js-popup-campaign">
+			<i class="fas fa-dove"></i>
+			<input type="text" name="name" placeholder="Имя">
+			<input type="text" name="email" placeholder="Почта">
+			<button type="submit" class="popup__button">
+				Отправить
+			</button>
+			<div class='result'></div>
+			<div class="close-popup js-close-campaign"></div>
+		</div>
+	</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<h1 class="header_logo">
+								Leonardo Da Vinci
+							</h1>
+						</div>
+						<div class="col-6">
+							<div class="header_link">
+							<img src="img/bird_icon.svg" alt="">
+							<a href="#">Отправить голубя</a>			
+						    </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="header_bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="header_article" data-aos="fade-up" data-aos-duration="1500">
+								<h1 class="header_article__title">Военные орудия<br>Великого гения</h1>
+								<input type="button" class="header_article__button" value="Выбрать орудие">
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="article_image"  data-aos="fade-up" data-aos-duration="1500">
+								<img src="img/vehicle_first.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_anchor">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="anchor">
+								<a href="#market">
+									<img src="img/anchor.svg" alt="anchor">
+								</a>									
+							    </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</header>
+	<section class="main_info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="info_description" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">
+						<h2 class="info_description__title">
+						Leonardo Da Vinci
+					    </h2>
+						<p class="info_description__text">Lеонардо ди сер Пьеро да Винчи – человек искусства эпохи Возрождения.Cкульптор,<br>изобретатель, живописец, философ, писатель, ученый, полимат(универсальный человек).<br>
+						<br>Большую часть своей жизни итальянец посвятил инженерным и архитектурным проектам.<br>Его изобретения имели как военный, так и мирный характер. Леонардо известен, как<br> разработчик прототипов танка, летательного аппарата, самодвижущейся повозки, прожектора,<br> катапульты, велосипеда, парашюта, мобильного моста, пулемета.<br>
+					    <br>Здесь представлены его самые удачные "военные разработки"
+					 </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="circle_line">
+            <span>
+            	<img src="img/circle.svg" alt="circle">
+			</span>
+		</div>
+	</section>
+
+	<section class="market" id="market">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="vehicle_icon"  data-aos="zoom-in-right" data-aos-offset="300" data-aos-duration="1000">
+						<img src="img/vehicle_second.png" alt="vehicle2">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="vehicle_description" data-aos="zoom-in-left" data-aos-offset="300" data-aos-duration="1000">
+						<h3 class="vehicle_description__title">Пулемет</h3>
+						<p class="vehicle_description__text">Орудие, состоит из трех рядов по 11<br>малокалиберных пушек, ряды соединялись<br>в виде треугольной вращающейся платформы,<br>к которой в свою очередь прикреплялись<br>большие колёса</p>
+						<div class="vehicle_statistic">
+							<p class="vehicle_statistic__amount">Количество<br>стволов</p>
+							<span class="vehicle_statistic__number">10</span>
+							<img src="img/turner_line.svg" alt="turner">
+							<p class="vehicle_statistic__amount">Дистанция<br>поражения</p>
+							<span class="vehicle_statistic__number">150м</span>
+						</div>
+                        <button type="button" class="buy_button">Купить</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="vehicle_i" data-aos="zoom-in-right" data-aos-offset="300" data-aos-duration="1000">
+						<img src="img/vehicle_third.png" alt="vehicle3">
+					</div>
+					<div class="vehicle_description" data-aos="zoom-in-left" data-aos-offset="300" data-aos-duration="1000">
+						<h3 class="vehicle_description__title">Танк</h3>
+						<p class="vehicle_description__text">Танк Леонардо имел округлую форму,<br> из-за чего напоминал черепаху.<br>Только в отличии от миролюбивого живого<br>пресмыкающегося, разработка гения имела<br>целый арсенал орудий. Ну а передвигаться<br>она должна была при помощи лошадей,<br>которые находились внутри конструкции.</p>
+						<div class="vehicle_statistic">
+							<p class="vehicle_statistic__amount">Количество<br>стволов</p>
+							<span class="vehicle_statistic__number">8</span>
+							<img src="img/turner_line.svg" alt="turner">
+							<p class="vehicle_statistic__amount">Дистанция<br>поражения</p>
+							<span class="vehicle_statistic__number">100м</span>
+						</div>
+                        <button type="button" class="buy_button">Купить</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="vehicle_i vv" data-aos="zoom-in-right" data-aos-offset="300" data-aos-duration="1000">
+						<h3 class="vehicle_description__title">Танк</h3>
+						<p class="vehicle_description__text">Танк Леонардо имел округлую форму,<br> из-за чего напоминал черепаху.<br>Только в отличии от миролюбивого живого<br>пресмыкающегося, разработка гения имела<br>целый арсенал орудий. Ну а передвигаться<br>она должна была при помощи лошадей,<br>которые находились внутри конструкции.</p>
+						<div class="vehicle_statistic">
+							<p class="vehicle_statistic__amount">Количество<br>стволов</p>
+							<span class="vehicle_statistic__number">8</span>
+							<img src="img/turner_line.svg" alt="turner">
+							<p class="vehicle_statistic__amount">Дистанция<br>поражения</p>
+							<span class="vehicle_statistic__number">100м</span>
+						</div>
+                        <button type="button" class="buy_button">Купить</button>
+					</div>
+					<div class="vehicle_icon aa"  data-aos="zoom-in-left" data-aos-offset="300" data-aos-duration="1000">
+						<img src="img/vehicle_third.png" alt="vehicle3">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="vehicle_icon" data-aos="zoom-in-right" data-aos-offset="300" data-aos-duration="1000">
+						<img src="img/vehicle_fourth.png" alt="vehicle4">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="vehicle_description" data-aos="zoom-in-left" data-aos-offset="300" data-aos-duration="1000">
+						<h3 class="vehicle_description__title">Эспрингаль</h3>
+						<p class="vehicle_description__text">Получившаяся торсионная машина работала<br>по принципу скрученной резинки. То есть, рычаг<br>приводился в боевое состояние при помощи веревки.<br>В специальный мешок укладывался соответствующий<br>по размеру камень. В момент «икс» натяжение обрывали,<br>и снаряд летел в противника.</p>
+						<div class="vehicle_statistic">
+							<p class="vehicle_statistic__amount">Вес<br>снаряда</p>
+							<span class="vehicle_statistic__number">26кг</span>
+							<img src="img/turner_line.svg" alt="turner">
+							<p class="vehicle_statistic__amount">Дистанция<br>поражения</p>
+							<span class="vehicle_statistic__number">300м</span>
+						</div>
+                        <button type="button" class="buy_button">Купить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="circle_line">
+            <span>
+            	<img src="img/circle.svg" alt="circle">
+			</span>
+		</div>
+	</section>
+	<section class="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="testimonials_info">
+							<h2 class="testimonials_info__title">
+							Преимущества технологий
+						    </h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+			         <div class="advantages" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">
+			         	<div class="img_blocks">
+			         		<img src="img/weapons_icon.png" alt="weapons">
+			         	</div>
+			         	<p class="advantages__title">Разновидности<br>снарядов</p>
+			         </div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					 <div class="advantages" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+					 	<div class="img_blocks">
+					 		<img src="img/target_icon.png" alt="target">
+					 	</div>
+					 	<p class="advantages__title">Точность<br>попадания в цель</p>
+					 </div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					 <div class="advantages" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+					 	<div class="img_blocks">
+					 		<img src="img/shield_icon.png" alt="shield">
+					 	</div>
+					 	<p class="advantages__title">Прочные<br>конструкции</p>
+					 </div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					 <div class="advantages" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+					 	<div class="img_blocks">
+					 		<img src="img/draw_icon.png" alt="draw">
+					 	</div>
+					 	<p class="advantages__title">Творения<br>великого гения</p>
+					 </div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer_info">
+						<h1 class="footer_info__title">Отправить Голубя</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form_text">
+							<input type="text" name="name" placeholder="Ваше имя" class="input_text">
+				    	</div>
+				    </div>
+                    <div class="col-md-6 col-sm-6">
+                    	<div class="form_adapt">
+							<input type="text" name="email" placeholder="Ваша почта" class="input_text">
+						</div>
+
+					</div>
+                    <div class="col-md-12">
+            			<div class="form_message">
+            				<input type="text" name="message" placeholder="Ваше сообщение" class="input_message"><br>
+            			</div>
+                        <div class="form_button">
+                        <button type="button" class="footer_button">Отправить</button>
+                        </div>
+            		</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c51b61aca4.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
